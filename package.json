@@ -1,10 +1,10 @@
 {
-  "name": "create-djs-bot",
+  "name": "djs-boilerplate",
   "version": "1.0.0",
   "description": "Scaffold a Discord.js v14 bot project",
   "type": "module",
   "bin": {
-    "create-djs-bot": "dist/index.cjs"
+    "djs-boilerplate": "dist/index.cjs"
   },
   "files": [
     "dist",
@@ -26,7 +26,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ufibu/create-djs-bot.git"
+    "url": "git+https://github.com/ufibu/djs-boilerplate.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "license": "MIT",
   "dependencies": {

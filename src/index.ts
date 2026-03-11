@@ -9,13 +9,13 @@ import { scaffold } from "./scaffold.js";
 const program = new Command();
 
 program
-  .name("create-djs-bot")
+  .name("djs-boilerplate")
   .description("Scaffold a Discord.js bot project")
   .version("1.0.0")
   .argument("[project-name]", "Name of the project")
   .action(async (projectNameArg?: string) => {
     console.log();
-    console.log(chalk.bold("  create-djs-bot") + chalk.dim(" — Discord.js bot scaffolder"));
+    console.log(chalk.bold("  djs-boilerplate") + chalk.dim(" — Discord.js bot scaffolder"));
     console.log();
 
     const choices = await getUserChoices(projectNameArg);

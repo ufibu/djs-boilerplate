@@ -1,11 +1,11 @@
-# create-djs-bot
+# djs-boilerplate
 
 CLI tool to scaffold Discord.js bot projects. Born out of my own need — I build a lot of Discord bots and got tired of setting up the same boilerplate every time.
 
 ## Usage
 
 ```bash
-npx create-djs-bot my-bot
+npx djs-boilerplate my-bot
 ```
 
 ## Features
