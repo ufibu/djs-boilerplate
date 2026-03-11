@@ -1,6 +1,6 @@
 {
   "name": "djs-boilerplate",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "Scaffold a Discord.js v14 bot project",
   "type": "module",
   "bin": {
@@ -32,7 +32,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "chalk": "^5.4.1",
+    "chalk": "^4.1.2",
     "commander": "^13.1.0",
     "fs-extra": "^11.3.0",
     "prompts": "^2.4.2",
